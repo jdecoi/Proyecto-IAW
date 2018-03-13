@@ -76,10 +76,10 @@ echo "hola productos";
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
               <a class="nav-link" href="pro1.php">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img src='/../fotos/nvidia.jpg' border='0' width='300' height='200'>
                 </a>
                 <div class="card-body">
-                  <p class="card-text">producto1.</p>
+                  <p class="card-text">Nvidia.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -93,10 +93,10 @@ echo "hola productos";
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
               <a class="nav-link" href="pro2.php">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img src='/../fotos/intel.png' border='0' width='300' height='200'>
                 </a>
                 <div class="card-body">
-                  <p class="card-text">producto2.</p>
+                  <p class="card-text">INTEL.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -110,10 +110,10 @@ echo "hola productos";
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
               <a class="nav-link" href="pro3.php">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img src='/../fotos/amd.jpg' border='0' width='300' height='200'>
                 </a>
                 <div class="card-body">
-                  <p class="card-text">producto3.</p>
+                  <p class="card-text">AMD.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>

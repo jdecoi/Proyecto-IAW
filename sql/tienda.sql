@@ -19,6 +19,8 @@ CREATE TABLE producto (
   nombre VARCHAR(100) NOT NULL,
   precio DOUBLE NOT NULL,
   codigo_fabricante INT UNSIGNED NOT NULL,
+  imagen VARCHAR(256) NOT NULL,
+  descripcion VARCHAR(512) NOT NULL,
   FOREIGN KEY (codigo_fabricante) REFERENCES fabricante(codigo)
 );
 
@@ -29,9 +31,9 @@ INSERT INTO fabricante VALUES (001, 'Nvidia');
 INSERT INTO fabricante VALUES (002, 'Intel');
 INSERT INTO fabricante VALUES (003, 'AMD');
 
-INSERT INTO producto VALUES (0001, 'Nvidia GTX 1080 TI MSI', '680', '001');
-INSERT INTO producto VALUES (0002, 'Nvidia GTX 1050 MSI', '180', '001');
-INSERT INTO producto VALUES (0003, 'Intel Core i9-7940X 3.1Ghz BOX', '1259', '002');
-INSERT INTO producto VALUES (0004, 'Intel Core i7-7820X 3.6Ghz BOX', '519', '002');
-INSERT INTO producto VALUES (0005, 'AMD Ryzen Threadripper 1950X 3.4GHz', '839', '003');
-INSERT INTO producto VALUES (0006, 'AMD Ryzen 5 1600 3.2GHZ BOX', '164', '003');
+INSERT INTO producto VALUES (0001, 'Nvidia GTX 1080 TI MSI', '680', '001', '../fotos/1.jpg', 'Tarjeta Grafica');
+INSERT INTO producto VALUES (0002, 'Nvidia GTX 1050 MSI', '180', '001', '../fotos/2.jpg', 'Tarjeta Grafica');
+INSERT INTO producto VALUES (0003, 'Intel Core i9-7940X 3.1Ghz BOX', '1259', '002', '../fotos/3.jpg', 'Tarjeta Grafica');
+INSERT INTO producto VALUES (0004, 'Intel Core i7-7820X 3.6Ghz BOX', '519', '002', '../fotos/4.jpg', 'Tarjeta Grafica');
+INSERT INTO producto VALUES (0005, 'AMD Ryzen Threadripper 1950X 3.4GHz', '839', '003', '../fotos/5.jpg', 'Tarjeta Grafica');
+INSERT INTO producto VALUES (0006, 'AMD Ryzen 5 1600 3.2GHZ BOX', '164', '003', '../fotos/6.jpg', 'Tarjeta Grafica');
