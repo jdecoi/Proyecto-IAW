@@ -20,7 +20,7 @@ echo "welcome to dashboard!!!";
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Productos Nvidia</title>
+    <title>Productos</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@ echo "welcome to dashboard!!!";
 
   <body>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Juan Diego S.A</a>
       <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
@@ -49,7 +49,7 @@ echo "welcome to dashboard!!!";
                 <a class="nav-link" href="productos.php">
                 </br>
                   <span data-feather="shopping-cart"></span>
-                  Products
+                  Productos
                 </a>
               </li>
             </ul>
@@ -63,7 +63,7 @@ echo "welcome to dashboard!!!";
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Nvidia Gforce</h1>
+            <h1 class="h2">Productos</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
                 <button class="btn btn-sm btn-outline-secondary">Share</button>
@@ -78,33 +78,40 @@ echo "welcome to dashboard!!!";
 
           <!doctype html>
 <html>
-<title>Productos Nvidia</title>
+<title>Productos</title>
 <body>
 <?php
 include("config.php");
 
-$result = mysqli_query($mysqli, "SELECT * FROM producto where codigo_fabricante = 1");
+$result = mysqli_query($mysqli, "SELECT * FROM producto");
+$numcon = mysqli_num_rows ($result);
 
 echo "<table class=\"table table-striped\">";
-  	
-		echo "<thead>";
-		echo "<tr>";
-        echo "<th>NOMBRE</th>";
-        echo "<th>PRECIO</th>";
-        echo "<th>IMAGEN</th>";
-        echo "<th>DESCRIPCION</th>";
-		echo "</tr>";
-		echo "</thead>";
 
-while ($row = mysqli_fetch_array($result)){
+echo "<thead>";
+echo "<tr>";
+    echo "<th>NOMBRE</th>";
+    echo "<th>PRECIO</th>";
+    echo "<th>IMAGEN</th>";
+    echo "<th>DESCRIPCION</th>";
+    echo "<th>PAG.PRODUCTO</th>";
+echo "</tr>";
+echo "</thead>";
+
+for ($lin = 1; $lin <= $numcon ; $lin++){
+$product = mysqli_query($mysqli, "SELECT * FROM producto where codigo =  $lin");
+
+while ($row = mysqli_fetch_array($product)){
     echo "<tr>";
     echo "<td>".$row['nombre']."</td>";
     echo "<td>".$row['precio']."</td>";
     echo "<td><img src=\"".$row['imagen']."\"/></td>";
     echo "<td>".$row['descripcion']."</td>";
+    echo "<td><a href=p$lin.php>Info</a></td>";
     echo "</tr>";
     	
 } 
+}
 ?>
 </table>
 </body>

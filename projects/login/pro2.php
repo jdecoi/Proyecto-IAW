@@ -49,7 +49,7 @@ echo "welcome to dashboard!!!";
                 <a class="nav-link" href="productos.php">
                 </br>
                   <span data-feather="shopping-cart"></span>
-                  Products
+                  Productos
                 </a>
               </li>
             </ul>
@@ -84,26 +84,36 @@ echo "welcome to dashboard!!!";
 include("config.php");
 
 $result = mysqli_query($mysqli, "SELECT * FROM producto where codigo_fabricante = 2");
+$numcon = mysqli_num_rows ($result);
 
 echo "<table class=\"table table-striped\">";
-  	
-		echo "<thead>";
-		echo "<tr>";
-        echo "<th>NOMBRE</th>";
-        echo "<th>PRECIO</th>";
-        echo "<th>IMAGEN</th>";
-        echo "<th>DESCRIPCION</th>";
-		echo "</tr>";
-		echo "</thead>";
 
-while ($row = mysqli_fetch_array($result)){
+echo "<thead>";
+echo "<tr>";
+    echo "<th>NOMBRE</th>";
+    echo "<th>PRECIO</th>";
+    echo "<th>IMAGEN</th>";
+    echo "<th>DESCRIPCION</th>";
+    echo "<th>PAG.PRODUCTO</th>";
+echo "</tr>";
+echo "</thead>";
+
+$hola = "SELECT * from producto where codigo_fabricante=2"
+$codigs = 
+
+
+for ($lin = 1; $lin <= $numcon ; $lin++){
+$product = mysqli_query($mysqli, "SELECT * FROM producto where codigo_fabricante = 2 and codigo =  $lin");
+
+while ($row = mysqli_fetch_array($product)){
     echo "<tr>";
     echo "<td>".$row['nombre']."</td>";
     echo "<td>".$row['precio']."</td>";
     echo "<td><img src=\"".$row['imagen']."\"/></td>";
     echo "<td>".$row['descripcion']."</td>";
+    echo "<td><a href=p$lin.php>Info</a></td>";
     echo "</tr>";
-    	
+}    	
 } 
 ?>
 </table>
