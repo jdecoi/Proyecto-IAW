@@ -99,7 +99,7 @@ echo "</tr>";
 echo "</thead>";
 
 $hola = "SELECT * from producto where codigo_fabricante=2"
-$codigs = 
+
 
 
 for ($lin = 1; $lin <= $numcon ; $lin++){
