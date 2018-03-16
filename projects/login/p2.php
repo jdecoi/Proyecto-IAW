@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Product example for Bootstrap</title>
+    <title>GTX 1050 TI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +21,9 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
-                  <span data-feather="shopping-cart"></span>
-                  Productos
-                </a>
+              <a class="nav-link" href="pro1.php">
+              Productos
+            </a>
               </li>
             </ul>
 
@@ -35,9 +34,9 @@
           </div>
         </nav>
 
-        <h1><b>MSI GTX 1080Ti Gaming X 11GB GDDR5X</b></h1>
-        <p class="lead font-weight-normal">Precio: 680€</p>
-        <img src='/../fotos/p1.jpg' border='0' width='300' height='300'>
+        <h1><b>MSI GeForce GTX 1050Ti GAMING X 4GB GDDR5</b></h1>
+        <p class="lead font-weight-normal">Precio: 180€</p>
+        <img src='/../fotos/p2.jpg' border='0' width='300' height='300'>
       </div>
       <div class="product-device box-shadow d-none d-md-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -48,7 +47,7 @@
         <div class="my-3 p-3">
           <h2 class="display-5">Especificaciones</h2>
           <p>
-         <b>GeForce® GTX 1080 Ti GAMING X 11G</b>
+         <b>MSI GeForce GTX 1050Ti GAMING X 4GB GDDR5</b>
          </br>
 </p>
         </div>
@@ -57,39 +56,42 @@
 Unidad de proceso gráfico  NVIDIA® GeForce® GTX 1080 Ti
 </br>
 </br>
-Interface PCI Express x16 3.0
+GPU: GeForce GTX 1050
 </br>
-Core GP102-350
+Núcleos CUDA: 768
 </br>
-Cores 3584 Units
+Memoria de vídeo: 4GB GDDR5
 </br>
-Boost / Base Core Clock 1683 MHz / 1569 MHz (OC Mode)
+Bus de memoria: 128 bits
 </br>
-1657 MHz / 1544 MHz (Gaming Mode)
+Motor de Base de reloj: 1379 MHz
 </br>
-1582 MHz / 1480 MHz (Silent Mode)
+Boost: 1493 MHz
 </br>
-Memory Clock Speed 11124 MHz (OC Mode)
+La memoria del reloj: 7108 MHz
 </br>
-11016 MHz (Gaming / Silent )
+PCI Express 3.0
 </br>
-Memoria 11GB GDDR5X
+Conexiones
 </br>
-Memoria Bus 352-bit
+1 x DisplayPort 1.4
 </br>
-Salidas: DisplayPort x 2 (Version 1.4) / HDMI x 2 (Version 2.0) / DL-DVI-D
+1 x HDMI 2.0b
 </br>
-HDCP Support 2.2
+1 x DVI-DL
 </br>
-Power consumption 250 W
+Soporte HDCP
 </br>
-Power connectors 8-pin x 2
+VR Ready
 </br>
-PSU Recomendado 600 W
-</br>
-Dimensiones (mm) 290 x 140 x 51 mm
-</br>
-Peso (Card / Package) 1257 g / 1986 g
+Power Connectors: 6-pin x 1
+ 
+DirectX 12
+OpenGL 4.5
+Enfriamiento: Twin Frozr VI
+Tamaño de posicionamiento: Dual Slot
+Sistemas operativos soportados: Windows 10/8/7 / Vista
+Dimensiones 229 x 131 x 39 mm
 </p>
         </div>
              

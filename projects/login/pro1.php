@@ -46,10 +46,9 @@ echo "welcome to dashboard!!!";
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
+                <a class="nav-link" href="dashboard.php">
                 </br>
-                  <span data-feather="shopping-cart"></span>
-                  Productos
+                   Inicio
                 </a>
               </li>
             </ul>

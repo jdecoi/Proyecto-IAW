@@ -98,7 +98,7 @@ echo "<tr>";
 echo "</tr>";
 echo "</thead>";
 
-$hola = "SELECT * from producto where codigo_fabricante=2"
+$hola = "SELECT * from producto where codigo_fabricante=2";
 
 
 

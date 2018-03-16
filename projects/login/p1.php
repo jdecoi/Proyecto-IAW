@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Product example for Bootstrap</title>
+    <title>GTX 1080 TI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +21,9 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
-                  <span data-feather="shopping-cart"></span>
-                  Productos
-                </a>
+              <a class="nav-link" href="pro1.php">
+              Productos
+            </a>
               </li>
             </ul>
 

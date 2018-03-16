@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Product example for Bootstrap</title>
+    <title>Intel i7</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +21,9 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
-                  <span data-feather="shopping-cart"></span>
-                  Productos
-                </a>
+              <a class="nav-link" href="pro1.php">
+              Productos
+            </a>
               </li>
             </ul>
 
@@ -35,9 +34,9 @@
           </div>
         </nav>
 
-        <h1><b>MSI GTX 1080Ti Gaming X 11GB GDDR5X</b></h1>
-        <p class="lead font-weight-normal">Precio: 680€</p>
-        <img src='/../fotos/p1.jpg' border='0' width='300' height='300'>
+        <h1><b>Intel Core i7-7820X 3.6Ghz BOX</b></h1>
+        <p class="lead font-weight-normal">Precio: 519€</p>
+        <img src='/../fotos/4.jpg' border='0' width='300' height='300'>
       </div>
       <div class="product-device box-shadow d-none d-md-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -48,48 +47,32 @@
         <div class="my-3 p-3">
           <h2 class="display-5">Especificaciones</h2>
           <p>
-         <b>GeForce® GTX 1080 Ti GAMING X 11G</b>
+         <b>Intel Core i7-7820X 3.6Ghz BOX</b>
          </br>
 </p>
         </div>
         <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 500px; border-radius: 21px 21px 0 0;">
 <p style="color:#FFFFFF">
-Unidad de proceso gráfico  NVIDIA® GeForce® GTX 1080 Ti
+Procesador Intel Core i7-7820X
 </br>
 </br>
-Interface PCI Express x16 3.0
+Type CPU / Microprocessor
 </br>
-Core GP102-350
+Market segment Desktop
 </br>
-Cores 3584 Units
+Family Intel Core i7
 </br>
-Boost / Base Core Clock 1683 MHz / 1569 MHz (OC Mode)
+Model number  i7-7820X
 </br>
-1657 MHz / 1544 MHz (Gaming Mode)
+Frequency 3600 MHz
 </br>
-1582 MHz / 1480 MHz (Silent Mode)
+Turbo frequency 4500 MHz
 </br>
-Memory Clock Speed 11124 MHz (OC Mode)
+Bus speed 8 GT/s DMI
 </br>
-11016 MHz (Gaming / Silent )
+Clock multiplier 36
 </br>
-Memoria 11GB GDDR5X
-</br>
-Memoria Bus 352-bit
-</br>
-Salidas: DisplayPort x 2 (Version 1.4) / HDMI x 2 (Version 2.0) / DL-DVI-D
-</br>
-HDCP Support 2.2
-</br>
-Power consumption 250 W
-</br>
-Power connectors 8-pin x 2
-</br>
-PSU Recomendado 600 W
-</br>
-Dimensiones (mm) 290 x 140 x 51 mm
-</br>
-Peso (Card / Package) 1257 g / 1986 g
+Socket Socket 2066 / R4 / LGA2066
 </p>
         </div>
              

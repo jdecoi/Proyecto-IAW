@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Product example for Bootstrap</title>
+    <title>AMD Ryzen</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +21,9 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
-                  <span data-feather="shopping-cart"></span>
-                  Productos
-                </a>
+              <a class="nav-link" href="pro1.php">
+              Productos
+            </a>
               </li>
             </ul>
 
@@ -35,9 +34,9 @@
           </div>
         </nav>
 
-        <h1><b>MSI GTX 1080Ti Gaming X 11GB GDDR5X</b></h1>
-        <p class="lead font-weight-normal">Precio: 680€</p>
-        <img src='/../fotos/p1.jpg' border='0' width='300' height='300'>
+        <h1><b>AMD Ryzen 5 1600 3.2GHZ BOX</b></h1>
+        <p class="lead font-weight-normal">Precio: 164€</p>
+        <img src='/../fotos/6.jpg' border='0' width='300' height='300'>
       </div>
       <div class="product-device box-shadow d-none d-md-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -48,48 +47,34 @@
         <div class="my-3 p-3">
           <h2 class="display-5">Especificaciones</h2>
           <p>
-         <b>GeForce® GTX 1080 Ti GAMING X 11G</b>
+         <b>AMD Ryzen 5 1600 3.2GHZ BOX</b>
          </br>
 </p>
         </div>
         <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 500px; border-radius: 21px 21px 0 0;">
 <p style="color:#FFFFFF">
-Unidad de proceso gráfico  NVIDIA® GeForce® GTX 1080 Ti
+Procesador AMD Ryzen 5 1600 
 </br>
 </br>
-Interface PCI Express x16 3.0
+Familia de procesador: AMD Ryzen 5
 </br>
-Core GP102-350
+Frecuencia del procesador: 3,2 GHz
 </br>
-Cores 3584 Units
+Número de núcleos de procesador: 6
 </br>
-Boost / Base Core Clock 1683 MHz / 1569 MHz (OC Mode)
+Socket de procesador: Socket AM4
 </br>
-1657 MHz / 1544 MHz (Gaming Mode)
+Componente para: PC
 </br>
-1582 MHz / 1480 MHz (Silent Mode)
+Caja: Si
 </br>
-Memory Clock Speed 11124 MHz (OC Mode)
+Modelo del procesador: 1600
 </br>
-11016 MHz (Gaming / Silent )
+Número de filamentos de procesador: 12
 </br>
-Memoria 11GB GDDR5X
+Modo de procesador operativo: 32-bit, 64 bits
 </br>
-Memoria Bus 352-bit
-</br>
-Salidas: DisplayPort x 2 (Version 1.4) / HDMI x 2 (Version 2.0) / DL-DVI-D
-</br>
-HDCP Support 2.2
-</br>
-Power consumption 250 W
-</br>
-Power connectors 8-pin x 2
-</br>
-PSU Recomendado 600 W
-</br>
-Dimensiones (mm) 290 x 140 x 51 mm
-</br>
-Peso (Card / Package) 1257 g / 1986 g
+Frecuencia del procesador turbo: 3,6 GHz
 </p>
         </div>
              

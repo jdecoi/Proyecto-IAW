@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Product example for Bootstrap</title>
+    <title>AMD Ryzen</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +21,9 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
-                  <span data-feather="shopping-cart"></span>
-                  Productos
-                </a>
+              <a class="nav-link" href="pro1.php">
+              Productos
+            </a>
               </li>
             </ul>
 
@@ -35,9 +34,9 @@
           </div>
         </nav>
 
-        <h1><b>MSI GTX 1080Ti Gaming X 11GB GDDR5X</b></h1>
-        <p class="lead font-weight-normal">Precio: 680€</p>
-        <img src='/../fotos/p1.jpg' border='0' width='300' height='300'>
+        <h1><b>AMD Ryzen Threadripper 1950X 3.4GHz</b></h1>
+        <p class="lead font-weight-normal">Precio: 839€</p>
+        <img src='/../fotos/5.jpg' border='0' width='300' height='300'>
       </div>
       <div class="product-device box-shadow d-none d-md-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -48,48 +47,40 @@
         <div class="my-3 p-3">
           <h2 class="display-5">Especificaciones</h2>
           <p>
-         <b>GeForce® GTX 1080 Ti GAMING X 11G</b>
+         <b>AMD Ryzen Threadripper 1950X 3.4GHz</b>
          </br>
 </p>
         </div>
         <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 500px; border-radius: 21px 21px 0 0;">
 <p style="color:#FFFFFF">
-Unidad de proceso gráfico  NVIDIA® GeForce® GTX 1080 Ti
+Procesador AMD Ryzen Threadripper 1950X
 </br>
 </br>
-Interface PCI Express x16 3.0
+Núcleos de CPU: 16
 </br>
-Core GP102-350
+Hilos: 32
 </br>
-Cores 3584 Units
+Velocidad base de reloj: 3.4GHz
 </br>
-Boost / Base Core Clock 1683 MHz / 1569 MHz (OC Mode)
+Max Turbo Core Speed: 4GHz
 </br>
-1657 MHz / 1544 MHz (Gaming Mode)
+Caché L1 total: 1.125MB
 </br>
-1582 MHz / 1480 MHz (Silent Mode)
+Caché L2 total: 8MB
 </br>
-Memory Clock Speed 11124 MHz (OC Mode)
+Caché L3 total: 32MB
 </br>
-11016 MHz (Gaming / Silent )
+Desbloqueados: Sí
 </br>
-Memoria 11GB GDDR5X
+CMOS: 14nm
 </br>
-Memoria Bus 352-bit
+Package: sTR4
 </br>
-Salidas: DisplayPort x 2 (Version 1.4) / HDMI x 2 (Version 2.0) / DL-DVI-D
+Versión de PCI Express: PCIe 3.0
 </br>
-HDCP Support 2.2
+Default TDP / TDP: 180W
 </br>
-Power consumption 250 W
-</br>
-Power connectors 8-pin x 2
-</br>
-PSU Recomendado 600 W
-</br>
-Dimensiones (mm) 290 x 140 x 51 mm
-</br>
-Peso (Card / Package) 1257 g / 1986 g
+Max Temps: 68°C
 </p>
         </div>
              
