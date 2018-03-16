@@ -54,7 +54,7 @@
          </br>
 </p>
         </div>
-        <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 500px; border-radius: 21px 21px 0 0;">
+        <div class="bg-dark box-shadow mx-auto" style="width: 80%; border-style:inset; border-width:5px; height: 500px; border-radius: 21px 21px 0 0;">
 <p style="color:#FFFFFF">
 Unidad de proceso gráfico  NVIDIA® GeForce® GTX 1080 Ti
 </br>
