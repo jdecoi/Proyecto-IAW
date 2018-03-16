@@ -36,6 +36,7 @@
 
         <h1><b><u>Intel Core i9-7940X 3.1Ghz BOX</u></b></h1>
         <p class="lead font-weight-normal">Precio: 1.259€</p>
+        <p><input type="submit" name="Comprar" value="Comprar" onclick="insert()" /></p>
         <img src='/../fotos/3.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/3-2.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/3-3.jpg' style="border-style:ridge;border-width:9px;" width='450' height='300'>

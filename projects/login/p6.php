@@ -36,6 +36,7 @@
 
         <h1><b><u>AMD Ryzen 5 1600 3.2GHZ BOX</u></b></h1>
         <p class="lead font-weight-normal">Precio: 164€</p>
+        <p><input type="submit" name="Comprar" value="Comprar" onclick="insert()" /></p>
         <img src='/../fotos/6.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/6-2.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/6-3.jpg' style="border-style:ridge;border-width:9px;" width='450' height='300'>

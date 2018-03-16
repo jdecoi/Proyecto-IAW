@@ -36,6 +36,7 @@
 
         <h1><b><u>MSI GTX 1080Ti Gaming X 11GB GDDR5X</u></b></h1>
         <p class="lead font-weight-normal">Precio: 680€</p>
+        <p><input type="submit" name="Comprar" value="Comprar"/></p>
         <img src='/../fotos/p1.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/1-2.jpg' style="border-style:ridge;border-width:9px;" width='400' height='240'>
         <img src='/../fotos/1-3.jpg' style="border-style:ridge;border-width:9px;" width='400' height='240'>

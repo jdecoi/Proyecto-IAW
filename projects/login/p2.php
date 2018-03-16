@@ -36,6 +36,7 @@
 
         <h1><b><u>MSI GeForce GTX 1050Ti GAMING X 4GB GDDR5</u></b></h1>
         <p class="lead font-weight-normal">Precio: 180€</p>
+        <p><input type="submit" name="Comprar" value="Comprar" onclick="insert()" /></p>
         <img src='/../fotos/p2.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/2-2.jpg' style="border-style:ridge;border-width:9px;" width='400' height='300'>
         <img src='/../fotos/2-3.jpg' style="border-style:ridge;border-width:9px;" width='350' height='300'>

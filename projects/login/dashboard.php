@@ -67,7 +67,8 @@ echo "welcome to dashboard!!!";
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
                </div>
-              </div>
+             
+            </div>
           </div>
 
           <canvas class="my-4" id="myChart" width="900" height="380"></canvas>

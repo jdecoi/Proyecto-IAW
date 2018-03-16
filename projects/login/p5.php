@@ -36,6 +36,7 @@
 
         <h1><b><u>AMD Ryzen Threadripper 1950X 3.4GHz</u></b></h1>
         <p class="lead font-weight-normal">Precio: 839€</p>
+        <p><input type="submit" name="Comprar" value="Comprar" onclick="insert()" /></p>
         <img src='/../fotos/5.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
         <img src='/../fotos/5-2.jpg' style="border-style:ridge;border-width:9px;" width='350' height='300'>
         <img src='/../fotos/5-3.jpg' style="border-style:ridge;border-width:9px;" width='350' height='300'>
