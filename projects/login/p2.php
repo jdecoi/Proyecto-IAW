@@ -16,12 +16,12 @@
   <body>
 
   
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light"style="border-style:ridge;border-width:5px;">
     <nav class="col-md-2 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-              <a class="nav-link" href="pro1.php">
+              <a class="nav-link" href="pro1.php" style="border-style:ridge;border-width:5px;">
               Productos
             </a>
               </li>
@@ -34,18 +34,20 @@
           </div>
         </nav>
 
-        <h1><b>MSI GeForce GTX 1050Ti GAMING X 4GB GDDR5</b></h1>
+        <h1><b><u>MSI GeForce GTX 1050Ti GAMING X 4GB GDDR5</u></b></h1>
         <p class="lead font-weight-normal">Precio: 180€</p>
-        <img src='/../fotos/p2.jpg' border='0' width='300' height='300'>
+        <img src='/../fotos/p2.jpg' style="border-style:ridge;border-width:9px;" width='300' height='300'>
+        <img src='/../fotos/2-2.jpg' style="border-style:ridge;border-width:9px;" width='400' height='300'>
+        <img src='/../fotos/2-3.jpg' style="border-style:ridge;border-width:9px;" width='350' height='300'>
       </div>
       <div class="product-device box-shadow d-none d-md-block"></div>
       <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
     </div>
 
     </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="border-style:ridge;border-width:5px;">
         <div class="my-3 p-3">
-          <h2 class="display-5">Especificaciones</h2>
+          <h2 class="display-5"><u>Especificaciones</u></h2>
           <p>
          <b>MSI GeForce GTX 1050Ti GAMING X 4GB GDDR5</b>
          </br>
@@ -53,7 +55,7 @@
         </div>
         <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 500px; border-radius: 21px 21px 0 0;">
 <p style="color:#FFFFFF">
-Unidad de proceso gráfico  NVIDIA® GeForce® GTX 1080 Ti
+Unidad de proceso gráfico  NVIDIA GeForce GTX 1050 Ti
 </br>
 </br>
 GPU: GeForce GTX 1050

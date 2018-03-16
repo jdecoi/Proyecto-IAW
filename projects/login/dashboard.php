@@ -35,7 +35,7 @@ echo "welcome to dashboard!!!";
       <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">Sign out</a>
+          <a class="nav-link" href="login.php" style="color:#FFFFFF"><b>Sign out</b></a>
         </li>
       </ul>
     </nav>
@@ -66,14 +66,8 @@ echo "welcome to dashboard!!!";
             <h1 class="h2">Dashboard</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
-                <button class="btn btn-sm btn-outline-secondary">Share</button>
-                <button class="btn btn-sm btn-outline-secondary">Export</button>
+               </div>
               </div>
-              <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                <span data-feather="calendar"></span>
-                This week
-              </button>
-            </div>
           </div>
 
           <canvas class="my-4" id="myChart" width="900" height="380"></canvas>
