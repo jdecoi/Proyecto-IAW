@@ -32,7 +32,7 @@ echo "welcome to dashboard!!!";
   <body>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Juan Diego S.A</a>
-      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
           <a class="nav-link" href="login.php" style="color:#FFFFFF"><b>Sign out</b></a>
@@ -98,7 +98,7 @@ while ($row = mysqli_fetch_array($product)){
     echo "<td>".$row['precio']."</td>";
     echo "<td><img src=\"".$row['imagen']."\"/></td>";
     echo "<td>".$row['descripcion']."</td>";
-    echo "<td><a href=p$lin.php>Info</a></td>";
+    echo "<td><a href=pro1d.php?codigo=$lin>Info</a></td>";
     echo "</tr>";
     	
 } 

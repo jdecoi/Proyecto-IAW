@@ -8,6 +8,9 @@ if($_SESSION['canaccess'] == false) {
 
 }
 
+$codigo = $_GET['codigo'];
+echo "<h1>$codigo</h1>";
+
 echo "welcome to dashboard!!!";
 
 ?>
@@ -83,9 +86,6 @@ echo "welcome to dashboard!!!";
 <?php
 include("config.php");
 
-$result = mysqli_query($mysqli, "SELECT * FROM producto");
-$numcon = mysqli_num_rows ($result);
-
 echo "<table class=\"table table-striped\">";
 
 echo "<thead>";
@@ -99,7 +99,7 @@ echo "</tr>";
 echo "</thead>";
 
 
-$product = mysqli_query($mysqli, "SELECT * FROM producto");
+$product = mysqli_query($mysqli, "SELECT * FROM producto WHERE codigo = $codigo");
 
 while ($row = mysqli_fetch_array($product)){
     echo "<tr>";
