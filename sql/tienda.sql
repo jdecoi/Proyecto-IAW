@@ -31,8 +31,8 @@ INSERT INTO fabricante VALUES (001, 'Nvidia');
 INSERT INTO fabricante VALUES (002, 'Intel');
 INSERT INTO fabricante VALUES (003, 'AMD');
 
-INSERT INTO producto VALUES (0001, 'Nvidia GTX 1080 TI MSI', '680', '001', '../fotos/1.jpg', 'Tarjeta Grafica GTX 1080 TI');
-INSERT INTO producto VALUES (0002, 'Nvidia GTX 1050 TI MSI', '180', '001', '../fotos/2.jpg', 'Tarjeta Grafica GTX 1050 TI');
+INSERT INTO producto VALUES (0001, 'Nvidia GTX 1080 TI MSI', '680', '001', '../fotos/1.jpg', 'Tarjeta Gráfica GTX 1080 TI');
+INSERT INTO producto VALUES (0002, 'Nvidia GTX 1050 TI MSI', '180', '001', '../fotos/2.jpg', 'Tarjeta Gráfica GTX 1050 TI');
 INSERT INTO producto VALUES (0003, 'Intel Core i9-7940X 3.1Ghz BOX', '1259', '002', '../fotos/3.jpg', 'Procesador Intel i9');
 INSERT INTO producto VALUES (0004, 'Intel Core i7-7820X 3.6Ghz BOX', '519', '002', '../fotos/4.jpg', 'Procesador Intel i7');
 INSERT INTO producto VALUES (0005, 'AMD Ryzen Threadripper 1950X 3.4GHz', '839', '003', '../fotos/5.jpg', 'Procesador AMD Ryzen Thr.');

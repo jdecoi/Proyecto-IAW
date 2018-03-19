@@ -9,11 +9,10 @@ if($_SESSION['canaccess'] == false) {
 }
 
 $codigo = $_GET['codigo'];
-echo "<h1>$codigo</h1>";
 
-echo "welcome to dashboard!!!";
 
 ?>
+
 
 <html lang="en">
   <head>
@@ -23,7 +22,7 @@ echo "welcome to dashboard!!!";
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Productos Nvidia</title>
+    <title>Productos</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -35,10 +34,10 @@ echo "welcome to dashboard!!!";
   <body>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Juan Diego S.A</a>
-      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">Sign out</a>
+          <a class="nav-link" href="login.php" style="color:#FFFFFF"><b>Sign out</b></a>
         </li>
       </ul>
     </nav>
@@ -49,10 +48,9 @@ echo "welcome to dashboard!!!";
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="productos.php">
+                <a class="nav-link" href="pro1.php">
                 </br>
-                  <span data-feather="shopping-cart"></span>
-                  Productos
+                   Productos
                 </a>
               </li>
             </ul>
@@ -66,23 +64,16 @@ echo "welcome to dashboard!!!";
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Nvidia Gforce</h1>
+            <h1 class="h2">Productos</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
-              <div class="btn-group mr-2">
-                <button class="btn btn-sm btn-outline-secondary">Share</button>
-                <button class="btn btn-sm btn-outline-secondary">Export</button>
-              </div>
-              <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                <span data-feather="calendar"></span>
-                This week
-              </button>
             </div>
           </div>
 
           <!doctype html>
 <html>
-<title>Productos Nvidia</title>
+<title>Productos</title>
 <body>
+
 <?php
 include("config.php");
 
@@ -94,7 +85,6 @@ echo "<tr>";
     echo "<th>PRECIO</th>";
     echo "<th>IMAGEN</th>";
     echo "<th>DESCRIPCION</th>";
-    echo "<th>PAG.PRODUCTO</th>";
 echo "</tr>";
 echo "</thead>";
 
@@ -105,9 +95,8 @@ while ($row = mysqli_fetch_array($product)){
     echo "<tr>";
     echo "<td>".$row['nombre']."</td>";
     echo "<td>".$row['precio']."</td>";
-    echo "<td><img src=\"".$row['imagen']."\"/></td>";
+    echo "<td><img  src=\"".$row['imagen']."\"width=\"300\" height=\"300\"/> </td>";
     echo "<td>".$row['descripcion']."</td>";
-    echo "<td><a href=\"detail.php?codigo=".$row['codigo']."\">Info</a></td>";
     echo "</tr>";
     	
 } 

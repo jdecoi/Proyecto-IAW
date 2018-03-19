@@ -8,7 +8,7 @@ if($_SESSION['canaccess'] == false) {
 
 }
 
-echo "welcome to dashboard!!!";
+
 
 ?>
 
@@ -41,23 +41,23 @@ echo "welcome to dashboard!!!";
     </nav>
 
     <div class="container-fluid">
-      <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="dashboard.php">
-                </br>
-                   Inicio
-                </a>
-              </li>
-            </ul>
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.php">
+              </br>
+                 Inicio
+              </a>
+            </li>
+          </ul>
 
-            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-              
-              </li>
-            </ul>
-          </div>
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            
+            </li>
+          </ul>
+        </div>
         </nav>
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
@@ -96,7 +96,7 @@ while ($row = mysqli_fetch_array($product)){
     echo "<tr>";
     echo "<td>".$row['nombre']."</td>";
     echo "<td>".$row['precio']."</td>";
-    echo "<td><img src=\"".$row['imagen']."\"/></td>";
+    echo "<td><img  src=\"".$row['imagen']."\"width=\"100\" height=\"100\"/> </td>";
     echo "<td>".$row['descripcion']."</td>";
     echo "<td><a href=pro1d.php?codigo=$lin>Info</a></td>";
     echo "</tr>";
